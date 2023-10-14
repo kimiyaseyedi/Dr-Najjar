@@ -1,0 +1,110 @@
+@font-face {
+  font-family: IRANSANS500;
+  src: url(../../fonts/woff/IRANSansX-Medium.woff); }
+@font-face {
+  font-family: IRANSANS400;
+  src: url(../../fonts/woff/IRANSansX-Regular.woff); }
+@font-face {
+  font-family: IRANSANS600;
+  src: url(../../fonts/woff/IRANSansX-DemiBold.woff); }
+.btnn {
+  font-family: IRANSANS500;
+  background-color: #ddc64c;
+  padding: 8px 28px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddc64c;
+  font-size: 14px;
+  color: #ffffff;
+  transition: all 100ms linear; }
+
+.btn-hover {
+  font-family: IRANSANS500 !important;
+  background-color: #a18e29 !important;
+  border: 1px solid #a18e29 !important;
+  color: white !important; }
+
+.btn-outline {
+  font-family: IRANSANS500;
+  background-color: #ffffff00;
+  padding: 8px 28px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddc64c;
+  font-size: 14px;
+  color: #ddc64c;
+  transition: all 100ms linear; }
+
+.h2 {
+  background-color: #203a27;
+  color: white;
+  font-size: 20px;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+  display: inline-block; }
+
+.menu {
+  font-family: IRANSANS500;
+  font-size: 14px;
+  color: white;
+  border-bottom: 1px solid #060c0800; }
+
+.menu-hover {
+  border-bottom: 1px solid #ddc64c; }
+
+.menu-focus {
+  background-color: #ddc64c;
+  border-bottom: 1px solid #ddc64c;
+  color: white; }
+
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddc64c;
+  cursor: pointer;
+  transition: all 100ms linear; }
+
+.icon-hover {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a18e29;
+  cursor: pointer;
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  direction: rtl;
+  background-color: #09110b; }
+
+h2 {
+  font-family: IRANSANS600;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px; }
+
+h3 {
+  font-family: IRANSANS600;
+  font-size: 16px;
+  color: white; }
+
+p {
+  font-family: IRANSANS400;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+@import url(./partials/navbar/navbar.css);
+@import url(./partials/index/preheader/preheader.css);
+@import url(./partials/index/header/header.css);
+@import url(./style/style.css);
+@import url(./partials/index/Servic/Servic.css);
+@import url(./partials/index/teammate/teammate.css);
+@import url(./partials/index/customer/customer.css);
+@import url(./partials/footer/footer.css);
+// @import url(./partials/contact-us/contact-us.css);
+
+$gold-1: #ddc64c;
+$gold-2: #b19c2d;
+$gold-3: #a18e29;
+
+$green-1: #203a27;
+$green-2: #132318;
+$green-3: #0d1810;
+$green-4: #060c08;
+
+$white: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+  background-color: $green-3;
+}
+body::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: $gold-1;
+}
+
+section.paralax{
+  height: 400px;
+  background-color: white;
+}

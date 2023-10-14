@@ -1,0 +1,18 @@
+div.header {
+  position: relative;
+  height: 400px;
+  background-color: #a4a4a4;
+  margin-bottom: 140px; }
+  div.header div:nth-child(1) {
+    height: fit-content;
+    background-color: #203a27;
+    color: white;
+    position: absolute;
+    transform: translate(50%);
+    bottom: -20%;
+    right: 50%; }
+    div.header div:nth-child(1) p {
+      font-size: 14px;
+      text-align: justify; }
+
+/*# sourceMappingURL=header.css.map */
